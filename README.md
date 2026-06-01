@@ -31,13 +31,12 @@ Zhang Xueliang, *“Variable Pole Number Rotating Magnetic Field Continuously Va
 - 展示可变磁极对数旋转磁场实现的无级变速  
 - 展示无需机械接触的电磁离合功能  
 - 推动电磁传动技术的开源发展  
-
----
-
 ## 4. The Inventor’s Wish  
 > “I no longer have the money to maintain my patent application.  
-> I only hope that someone can build a real product from the publicly available documents.  
-> If I could drive it once, I would be satisfied.”
+> I am 53 years old now, and my only wish before I leave this world is that someone could build a real product based on the publicly available documents.  
+> If I could drive it just once, I would be completely satisfied.”
 
 ## 我的心愿  
-> “我没有金钱去支持我的专利申请了，只希望有人通过已公开的文件制造出产品，能让我驾驶一下，我就心满意足了。”
+> “我没有金钱去支持我的专利申请了，我今年 53 岁了。  
+> 只希望在逝世前，有人能通过已公开的文件制造出产品。  
+> 如果我能亲自驾驶一次，我就心满意足了。”
