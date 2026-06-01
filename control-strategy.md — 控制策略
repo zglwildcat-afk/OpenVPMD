@@ -1,0 +1,57 @@
+# Control Strategy  
+# 控制策略
+
+## 1. Objectives  
+- 实现磁极对数切换  
+- 实现无级变速  
+- 实现电磁离合  
+- 保证切换平滑  
+
+- Pole number switching  
+- Continuously variable speed  
+- Electromagnetic clutching  
+- Smooth transition  
+
+## 2. System Architecture  
+- MCU / DSP（STM32 / TI C2000）  
+- 电流采样  
+- 位置传感器（可选）  
+- MOSFET/IGBT 驱动  
+- 绕组切换矩阵  
+
+- MCU / DSP (STM32 / TI C2000)  
+- Current sensing  
+- Position sensor (optional)  
+- MOSFET/IGBT drivers  
+- Winding switching matrix  
+
+## 3. Control Flow  
+1. 读取转速与负载  
+2. 判断当前磁极对数  
+3. 计算目标磁极对数  
+4. 平滑切换绕组  
+5. 调整 PWM  
+
+1. Read speed and load  
+2. Determine current pole number  
+3. Compute target pole number  
+4. Smoothly switch windings  
+5. Adjust PWM  
+
+## 4. Electromagnetic Clutch Strategy  
+- 切换到高磁极对数  
+- 同步速度下降  
+- 转子脱离同步 → 离合  
+
+- Switch to high pole number  
+- Synchronous speed drops  
+- Rotor desynchronizes → clutching  
+
+## 5. Recommended Algorithms  
+- PI 控制  
+- 模糊控制  
+- 预测控制（MPC）  
+
+- PI control  
+- Fuzzy control  
+- Model predictive control (MPC)
