@@ -1,0 +1,45 @@
+# Winding Design  
+# 绕组设计
+
+## 1. Overview  
+可变磁极对数系统需要定子绕组具备多相组、可切换相序、可切换串/并联方式。
+
+VPN‑RMF requires stator windings with multiple phase groups, switchable phase sequences, and switchable series/parallel modes.
+
+## 2. Common Winding Topologies  
+1. 三相六组绕组（最常用）  
+2. 多相绕组（5 相 / 6 相）  
+
+1. Three‑phase six‑group winding (most common)  
+2. Multi‑phase windings (5‑phase / 6‑phase)  
+
+## 3. Pole Number Switching  
+| 模式 | 接法 | 磁极对数 |
+|------|------|-----------|
+| Mode A | ABC 正常接法 | 2 极 |
+| Mode B | A 与 B 反接 | 4 极 |
+| Mode C | A/B/C 串联 | 6 极 |
+
+| Mode | Connection | Pole Number |
+|------|------------|-------------|
+| Mode A | Normal ABC | 2 poles |
+| Mode B | A/B reversed | 4 poles |
+| Mode C | A/B/C series | 6 poles |
+
+## 4. Switching Hardware  
+- 继电器矩阵  
+- MOSFET 全桥  
+- SiC 高压开关  
+
+- Relay matrix  
+- MOSFET full bridge  
+- SiC high‑voltage switches  
+
+## 5. Design Recommendations  
+- 集中绕组更易切换  
+- 多相绕组可降低转矩脉动  
+- 低电阻线圈减少铜损  
+
+- Concentrated windings are easier to switch  
+- Multi‑phase reduces torque ripple  
+- Low‑resistance coils reduce copper loss
