@@ -1,0 +1,57 @@
+# Mechanical Structure  
+# 机械结构
+
+## 1. Components  
+- 定子铁芯  
+- 多相绕组  
+- 永磁转子或鼠笼转子  
+- 轴承  
+- 散热结构  
+- 外壳  
+
+- Stator core  
+- Multi‑phase windings  
+- Permanent‑magnet or squirrel‑cage rotor  
+- Bearings  
+- Cooling structure  
+- Housing  
+
+## 2. Design Notes  
+- 定子槽形需适配多相绕组  
+- 转子磁钢需耐高温  
+- 轴承需支持高速  
+- 外壳需良好散热  
+
+- Stator slots must support multi‑phase coils  
+- Rotor magnets must be high‑temperature grade  
+- Bearings must support high speed  
+- Housing must provide good cooling  
+
+## 3. Recommended Materials  
+- 定子：硅钢片 35WW300  
+- 磁钢：N35SH / N38SH  
+- 轴承：6203/6204  
+- 外壳：铝合金 6061  
+
+- Stator: 35WW300 silicon steel  
+- Magnets: N35SH / N38SH  
+- Bearings: 6203/6204  
+- Housing: Aluminum 6061  
+
+## 4. Prototype Dimensions  
+- 定子外径：80–120 mm  
+- 转子外径：50–90 mm  
+- 轴径：10–14 mm  
+- 气隙：0.3–0.6 mm  
+
+- Stator OD: 80–120 mm  
+- Rotor OD: 50–90 mm  
+- Shaft: 10–14 mm  
+- Air gap: 0.3–0.6 mm  
+
+## 5. CAD Suggestions  
+- 使用 Fusion 360 / SolidWorks  
+- 采用模块化结构  
+
+- Use Fusion 360 / SolidWorks  
+- Prefer modular design
