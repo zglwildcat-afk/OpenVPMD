@@ -1,0 +1,63 @@
+# Principle of Variable Pole Number Rotating Magnetic Field  
+# 可变磁极对数旋转磁场原理说明
+
+## 1. Overview  
+可变磁极对数旋转磁场（VPN-RMF）是一种通过改变定子绕组的通电方式，使磁极对数动态变化，从而实现无级变速与电磁离合的技术。
+
+Variable Pole Number Rotating Magnetic Field (VPN‑RMF) is a technology that changes the number of magnetic poles by switching stator winding connections, enabling continuously variable speed and electromagnetic clutching.
+
+## 2. Key Features  
+- 无机械摩擦  
+- 无级变速（连续可调）  
+- 可实现电磁离合  
+- 结构简单、可靠性高  
+- 适用于高寿命场景  
+
+- No mechanical friction  
+- Continuously variable speed  
+- Electromagnetic clutch capability  
+- Simple structure, high reliability  
+- Suitable for long‑life applications  
+
+## 3. Working Principle  
+1. 定子绕组被分成多个相组  
+2. 通过切换绕组接法（串/并/相序）  
+3. 改变磁极对数 p  
+4. 旋转磁场同步速度随之变化  
+5. 转子跟随磁场变化，实现无级变速  
+
+1. Stator windings are divided into multiple phase groups  
+2. Winding connections are switched (series/parallel/phase sequence)  
+3. Magnetic pole number p changes  
+4. Synchronous speed changes accordingly  
+5. Rotor follows the magnetic field, achieving CVT behavior  
+
+## 4. Comparison with VFD  
+| 技术 | 变频器 | 可变磁极对数 |
+|------|--------|----------------|
+| 调速方式 | 改变频率 | 改变磁极对数 |
+| 成本 | 高 | 低 |
+| 控制复杂度 | 高 | 中 |
+| 可靠性 | 中 | 高 |
+| 是否可离合 | 否 | 是 |
+
+| Technology | VFD | Variable Pole Number |
+|-----------|-----|----------------------|
+| Speed control | Change frequency | Change pole number |
+| Cost | High | Low |
+| Control complexity | High | Medium |
+| Reliability | Medium | High |
+| Clutch capability | No | Yes |
+
+## 5. Applications  
+- 电动车驱动  
+- 工业传动  
+- 风力发电  
+- 机器人关节  
+- 船舶推进  
+
+- EV traction  
+- Industrial drives  
+- Wind turbines  
+- Robotic joints  
+- Marine propulsion
